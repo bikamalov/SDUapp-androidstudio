@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@drawable/border_shadow2"
+    android:orientation="horizontal"
+    android:layout_margin="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/item_staff_id">
+    <ImageView
+        android:id="@+id/img_staff"
+        android:layout_width="80dp"
+        android:layout_height="120dp" />
+
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_width="0dp"
+        android:layout_weight="8"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/staff_name"
+            android:text="Aidana Satzhan"
+            android:fontFamily="@font/roboto"
+            android:gravity="start"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/staff_department"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:fontFamily="@font/roboto"
+            android:paddingLeft="20dp"
+            android:text="87750180564"
+            android:textColor="#000"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/staff_position"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Professor"
+            android:fontFamily="@font/roboto"
+            android:textColor="#000"
+            android:textStyle="italic"
+            android:textSize="14sp"
+            android:gravity="start"/>
+    </LinearLayout>
+</LinearLayout>

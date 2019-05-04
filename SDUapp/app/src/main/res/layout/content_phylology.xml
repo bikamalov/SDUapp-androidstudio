@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:layout_gravity="center"
+    tools:context=".InfoFragment">
+
+    <LinearLayout
+        android:layout_marginTop="70dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/info_img_sdu"
+            android:layout_width="371dp"
+            android:layout_height="220dp"
+            android:src="@drawable/phhyl"
+            android:layout_marginTop="-80dp"
+            />
+
+        <TextView
+            android:id="@+id/info_text2_sdu"
+            android:layout_width="354dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
+            android:layout_marginLeft="10dp"
+            android:text="Program description"
+            android:textSize="25sp"
+            android:textStyle="bold">
+
+        </TextView>
+        <TextView
+            android:layout_width="354dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
+            android:layout_marginLeft="10dp"
+            android:text="Specialty of Philology (Kazakh Language) serves as an extraordinary center of creativity, inquiry, and discovery with a proud tradition of leadership in scholarship. The undergraduates become familiar with methods of linguistic and literary analysis and acquire a range of generic skills, including the ability for abstract and analytical thinking and synthesis of ideas, the ability to communicate both orally and through the written word in the national language, and the ability to work autonomously and in a team. The program offers not only opportunities for study of all aspects of Kazakh language and its literature, but also a well-developed, diverse, and active community within the University."></TextView>
+        <TextView
+            android:layout_width="354dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="In order to improve the creative abilities of students in the educational process students actively participate in professional workshops, seminars, poetic clubs and presentations by scientists and scholars. There are two functioning student unions that work systematically which are literary club “Magzhan” and scientific creative club “Assyl soz”. The missions of these two unions are keeping the students encouraged and engaged in the scholarship and literary issues."
+            ></TextView>
+    </LinearLayout>
+</LinearLayout>

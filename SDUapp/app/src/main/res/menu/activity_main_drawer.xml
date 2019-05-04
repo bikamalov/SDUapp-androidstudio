@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_news"
+            android:icon="@drawable/news1"
+            android:title="News" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/gallery"
+            android:title="Gallery" />
+        <item
+            android:id="@+id/nav_faculty"
+            android:icon="@drawable/faculty"
+            android:title="Faculty" />
+        <item
+            android:id="@+id/nav_employee"
+            android:icon="@drawable/employee"
+            android:title="Staff" />
+            <item
+                android:id="@+id/nav_info"
+                android:icon="@drawable/info"
+                android:title="info" />
+            <item
+                android:id="@+id/nav_contacts"
+                android:icon="@drawable/contacts"
+                android:title="Contacts" />
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/exit"
+                android:title="Exit" />
+
+        </group>
+    <item android:title="Communicate">
+        <menu>
+            <item android:id="@+id/nav_call"
+                android:icon="@drawable/call"
+                android:title="Call"/>
+            <item android:id="@+id/nav_site"
+                android:icon="@drawable/ic_menu_send"
+                android:title="sdu.kz"/>
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:layout_gravity="center"
+    tools:context=".InfoFragment">
+
+    <LinearLayout
+        android:layout_marginTop="70dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+
+            android:id="@+id/info_img_sdu"
+            android:layout_width="371dp"
+            android:layout_height="220dp"
+            android:src="@drawable/enggg"
+            android:layout_marginTop="-80dp"
+             />
+
+        <TextView
+            android:id="@+id/info_text2_sdu"
+            android:layout_width="354dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/roboto"
+            android:text="Description of the program"
+            android:textSize="25sp"
+            android:textStyle="bold">
+
+        </TextView>
+        <TextView
+            android:layout_width="354dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="There is a lack of specialists in the IT sphere in today's market. This demand is increasing every year. Suleyman Demirel University prepares specialists in certain technical areas, one of which is Information Systems."/>
+
+00
+        <TextView
+            android:layout_width="354dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="During 4 years of intensive training in this specialty students become high-level specialists with technical and management skills. They are familiarized with various areas in IT and they choose what they want to do in the future, whether it is game, mobile or web application development, 3D modeling, data analysis, machine learning, artificial intelligence, or even more."
+            ></TextView>
+        <TextView
+            android:layout_width="354dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="After finishing this specialty, student can work as any expert in IT, whether it is a programmer or a project manager. If student desire, they can work in a large IT companies of Silicon Valley like Google, Facebook, Microsoft, or even start their startup."
+            ></TextView>
+    </LinearLayout>
+</LinearLayout>

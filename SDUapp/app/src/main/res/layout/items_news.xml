@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:background="#000"
+    android:orientation="horizontal"
+    android:layout_margin="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/item_news_id">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="8"
+        android:background="@drawable/border_shadow"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/img_news"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:background="@drawable/border_shadow"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/news_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@drawable/border_shadow"
+            android:text=""
+            android:textColor="#000"
+            android:textSize="0sp" />
+        <TextView
+            android:id="@+id/news_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_shadow3"
+            android:gravity="start"
+            android:padding="20dp"
+            android:text="Madi"
+            android:fontFamily="@font/roboto"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+    </LinearLayout>
+</LinearLayout>

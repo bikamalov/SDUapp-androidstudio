@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:layout_gravity="center"
+    tools:context=".InfoFragment">
+
+    <LinearLayout
+        android:layout_marginTop="70dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/info_img_sdu"
+            android:layout_width="371dp"
+            android:layout_height="220dp"
+            android:src="@drawable/ecoo"
+            android:layout_marginTop="-80dp"
+            />
+
+        <TextView
+            android:id="@+id/info_text2_sdu"
+            android:layout_width="354dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
+            android:layout_marginLeft="10dp"
+            android:text="Program description "
+            android:textSize="25sp"
+            android:textStyle="bold">
+
+        </TextView>
+        <TextView
+            android:layout_width="354dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/roboto"
+            android:text="Specialty 6M050600 Economy covers a wide range of activities. Economists analyze, predict, conduct research, manage now. In addition, masters of the economy have the right to engage in teaching activities. The main type of professional activity is the economic activities of a research and development, control and analytical, organizational and managerial.">
+        </TextView>
+        <TextView
+            android:layout_width="354dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/roboto"
+            android:text="Master educational program Economy provides training of highly qualified and competent professionals for top management of economic services companies. "
+            ></TextView>
+        <TextView
+            android:layout_width="354dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/roboto"
+            android:layout_marginTop="10dp"
+            android:text="This is accomplished by introducing into the educational process the latest scientific achievements in the field of organization and management of the economy, as well as the organic combination of the best traditions of Kazakhstan's higher school to requirements dictated by modern processes of economic globalization"
+            ></TextView>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:layout_gravity="center"
+    tools:context=".InfoFragment">
+
+    <LinearLayout
+        android:layout_marginTop="70dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/info_img_sdu"
+            android:layout_width="371dp"
+            android:layout_height="220dp"
+            android:src="@drawable/laww"
+            android:layout_marginTop="-80dp"
+            />
+
+        <TextView
+            android:id="@+id/info_text2_sdu"
+            android:layout_width="354dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Описание специальности"
+            android:fontFamily="@font/roboto"
+            android:textSize="25sp"
+            android:textStyle="bold">
+
+        </TextView>
+        <TextView
+            android:layout_width="354dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
+            android:layout_marginLeft="10dp"
+            android:text="Программа направлена на подготовку высококвалифицированных юристов, обладающих сильной базой теоретических знаний и практических навыков, главным образом, в области частного права, а также в иных областях юриспруденции, связанных с правовым обеспечением экономики и бизнеса. Наши выпускники способны проявлять лидерские качества, но и работать в команде, профессионально решая сложные комплексные задачи национального и международного масштаба. В процессе обучения студенты имеют возможность участвовать в проектной, научно-исследовательской и экспертной работе в области национального и международного права."/>
+
+        00
+        <TextView
+            android:layout_width="354dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/roboto"
+            android:text="Основными позициями наших выпускников на юридическом рынке труда являются:
+
+корпоративный юрист, юрист в юридической/консалтинговой фирме, а также юрист в органах государственной власти, судьи, сотрудники прокуратуры и МВД."
+            ></TextView>
+    </LinearLayout>
+</LinearLayout>

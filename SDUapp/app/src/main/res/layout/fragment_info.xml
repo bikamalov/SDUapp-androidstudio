@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:layout_gravity="center"
+    tools:context=".InfoFragment">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/info_text1_sdu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="About SDU"
+                android:textSize="20dp"></TextView>
+
+            <ImageView
+                android:id="@+id/info_img_sdu"
+                android:layout_width="371dp"
+                android:layout_height="220dp"
+                android:src="@drawable/sduinfo"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/info_text2_sdu"
+                android:layout_width="354dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Suleyman Demirel University is a private higher educational institution located in Kaskelen, near Almaty." />
+
+            <TextView
+                android:layout_width="354dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="Nowadays the university has 4 faculties:" />
+
+            <TextView
+                android:layout_width="354dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="* Faculty of Law and Social sciences;" />
+
+            <TextView
+                android:layout_width="354dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="* Faculty of Education and Humanities;" />
+
+            <TextView
+                android:layout_width="354dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="* Faculty of Engineering and Natural Sciences;" />
+
+            <TextView
+                android:layout_width="354dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="* SDU Business school." />
+
+
+            <TextView
+                android:layout_width="354dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="SDU was established on December 17th 1996 by International Foundation «Білім Орда». University derives its name from former president of Turkey, Suleyman Demirel. The President of Kazakhstan, Nursultan Nazarbayev, and the former president of Turkey, Suleyman Demirel participated opening ceremony.  Nursultan Nazarbayev suggested naming university by Suleyman Demirel." />
+        </LinearLayout>
+</LinearLayout>
